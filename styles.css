@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient( hsl(273, 75%, 66%) , hsl(240, 73%, 65%) );
+    overflow: hidden;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kumbh Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    height: 450px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 175px;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.pattern{
+    height: 170%;
+    width: 80%;
+    position: relative;
+    right: 40%;
+    bottom: 50%;
+    
+}
+
+.woman{
+    height: 70%;
+    position: relative;
+    bottom: 700px;
+    left: -40px;
+    z-index: 0;
+    
+}
+
+.box{
+    position: absolute;
+    left: 170px; 
+    top: 370px;
+    z-index: 1;
+}
+
+.faq{
+    height: 400px;
+    width: 380px;
+    position: relative;
+    left: 450px;
+    bottom: 1050px;
+    
+    
+}
+
+.faq h1,.faq h3{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faq h3{
+    font-size: 13px;
+    font-weight: 600;
+    color: hsl(237, 12%, 33%);
+    cursor: pointer;
+    
+    
+}
+
+hr{    
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.arrow-down1,.arrow-down2{
+    margin-left: 70px;
+}
+
+.arrow-down3{
+    margin-left: 135px;
+}
+
+.arrow-down4{
+    margin-left: 130px;
+}
+
+.arrow-down5{
+    margin-left: 93px;
+}
